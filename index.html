@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fluency</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8c75c2b576.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+  <h1>Fluency</h1>
+  <div class="box">
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fa-solid fa-volume-high"></i>
+              <i id="from" class="fa-solid fa-copy"></i>
+            </div>
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+              <i id="to" class="fa-solid fa-volume-high"></i>
+              <i id="to" class="fa-solid fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button>
+    </div>
+  </div>
+  <p>Made with ❤️ by <a href="https://aaryan-192007.github.io/">Aaryan</a></p>
+  <script src="countries.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
